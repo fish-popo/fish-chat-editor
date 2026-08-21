@@ -2,7 +2,7 @@
  * @Date: 2024-10-08 14:38:52
  * @Description: create base dom。
  */
-import { helper } from ".";
+import * as helper from "./helper";
 
 /** @name Editor tag extension attribute configuration table */
 const elementAttributeData = {

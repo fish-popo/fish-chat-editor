@@ -7,7 +7,7 @@ import { babel } from "@rollup/plugin-babel";
 import nodeResolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import esbuild, { minify as minifyPlugin } from "rollup-plugin-esbuild";
-import pkg from "./package.json" assert { type: "json" };
+import pkg from "./package.json" with { type: "json" };
 
 const PKG_BRAND_NAME = "FishEditor";
 const banner = `/*! ${PKG_BRAND_NAME} v${pkg.version} */\n`;

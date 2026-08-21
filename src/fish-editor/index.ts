@@ -2,30 +2,30 @@
  * @Date: 2024-11-04 09:26:21
  * @Description: Modify here please
  */
-import FishEditor from "./core/fishEditor";
-import Input from "./modules/input";
-import OtherEvent from "./modules/otherEvent";
-import Clipboard from "./modules/clipboard";
-import Uploader from "./modules/uploader";
-import Keyboard from "./modules/keyboard";
-import History from "./modules/history";
+import FishEditor from './core/fishEditor'
+import Input from './modules/input'
+import OtherEvent from './modules/otherEvent'
+import Clipboard from './modules/clipboard'
+import Uploader from './modules/uploader'
+import Keyboard from './modules/keyboard'
+import History from './modules/history'
 
-export { labelRep, replaceMsgText } from "./utils/transforms";
-export { default as Emitter } from "./core/emitter";
+export { labelRep, replaceMsgText } from './utils/transforms'
+export { default as Emitter } from './core/emitter'
 
-export type { IEmitter } from "./core/emitter";
+export type { IEmitter } from './core/emitter'
 
-export type { IEmojiType } from "./config";
+export type { IEmojiType } from './config'
 
 FishEditor.register({
-  "modules/input": Input,
-  "modules/other-event": OtherEvent,
-  "modules/clipboard": Clipboard,
-  "modules/uploader": Uploader,
-  "modules/keyboard": Keyboard,
-  "modules/history": History
-});
+  'modules/input': Input,
+  'modules/other-event': OtherEvent,
+  'modules/clipboard': Clipboard,
+  'modules/uploader': Uploader,
+  'modules/keyboard': Keyboard,
+  'modules/history': History,
+})
 
-export { default as Module } from "./core/module";
+export { default as Module } from './core/module'
 
-export default FishEditor;
+export default FishEditor
